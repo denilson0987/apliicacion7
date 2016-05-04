@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Septima Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/l1.jpg','imagenes/g2.jpg','imagenes/4m2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Batalla de Puebla "5 de mayo"</h1>
+   </div>
+   <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:1024px;height:550px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>4 de mayo</h1>
+         <div>
+                <p>
+              El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza envió una brigada de 2000 hombres bajo el mando de Tomás O'Horán y Antonio Carbajal, con el fin de detenerlo, lo cual lograron. Aunque sus fuerzas habían disminuido, los mexicanos se prepararon para la defensa de Puebla. Contaban con dos baterías de artillería de batalla y dos de montaña, cubriendo los fuertes con 1200 hombres y formando a otros 3500 en cuatro columnas de infantería con una batería de batalla y una brigada de caballería por el lado del camino a Amozoc.</p>
+<p>
+El ala derecha mexicana la cubrían las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo ocuparon Felipe Berriózabal y Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería. La artillería sobrante la colocaron en los fortines y reductos dentro de Puebla, quedando al mando del general Santiago Tapia.
+        </p>
+         <br>
+         </div>
+   <div>
+   <center
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('3','','imagenes/4m2.jpg',1)"><img src="imagenes/4m.png" width="150" height="150" id="3"></a> </div>
+    </center>
+    </div>
+    </div>
+     
+     <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Historia</h1>
+         <div>
+                <p>
+                Te invito a ver el siguiente video
+        </p>
+        <iframe width="80%" height="80%" src="https://www.youtube.com/embed/Aq30NfM-Nkc" frameborder="0" allowfullscreen></iframe>
+         <br>
+         </div>
+   
+    </div>
+    </div>
+
+    
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Personajes importantes</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Actualidad de los Fuertes de Loreto y Guadalupe</h2>
+      </a>
+    </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+    <div>
+     <h4>Aplicación 6 "Batalla de Puebla"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Personajes importantes</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+     <p>Benito Pablo Juárez García</p>
+     <p>Entre los años de 1862 y 1867, sostiene de forma admirable el gobierno mexicano contra conservadores y francés, aun cuando andaba peregrinando entre México y Estados Unidos. Fue en esta época que sucede la Batalla de Puebla, lucha de la cual el Ejército Mexicano sale victorioso comandados por el Gral. Ignacio Zaragoza.</p>
+<center>
+<img src="imagenes/benito.png" width="50%" height="50%">
+</center>
+</div>
+
+     <div>
+     <p>Ignacio Mejía Álvarez</p>
+     <p>Durante la Segunda Intervención Francesa, fue Jefe de la División Oaxaca y participó en la heroica Batalla de Puebla al lado del Gral. Ignacio Zaragoza, teniendo como trinchera el Fuerte de Guadalupe.</p>
+     <center>
+<img src="imagenes/nacho.jpg" width="50%" height="50%">
+</center>
+    </div>
+    
+     <div>
+     <p>José de la Cruz Porfirio Díaz Morí</p>
+     <p>Su participación en la Batalla de Puebla el 5 de mayo se dio al defender el ala izquierda de la ciudad y repeliendo en dos ocasiones el ataque francés. Una vez que huyeron los franceses, González Ortega y Porfirio Díaz se dieron a la tarea de perseguirlos, hasta que Zaragoza se los impidió. Ese mismo día, Juárez recibió una carta de Zaragoza mencionándole los detalles de la batalla, y haciendo hincapié en "el empeño y bizarría del ciudadano general don Porfirio Díaz".</p>
+     <center>
+<img src="imagenes/porfi.jpg" width="50%" height="50%">
+    </center>
+    </div>
+    
+     <div>
+     <p>Ignacio Zaragoza Seguin</p>
+     <p>el General Ignacio  Zaragoza tenía casi 6 000 hombres con la orden de impedir el avance francés. El así llamado “ejercito mexicano”, tenía sólo un tercio de militares entrenados, el resto eran reclutas y voluntarios animados por el deseo de servir al país y no ser dominados por Francia; los generales Porfirio Díaz y Zaragoza tenían sólo 32 años pero mucha experiencia en la Guerra de Reforma. Antes de entrar en combate el General Zaragoza se dirigió a sus tropas diciendo:
+
+“Soldados, os habéis portado como héroes combatiendo por la Reforma. Vuestros esfuerzos han sido siempre coronados por el éxito. Hoy vais a pelear por un objeto sagrado, vais a pelear por la Patria y yo os prometo que en la presente jornada conquistaréis un día de gloria. Vuestros enemigos son los primeros soldados del mundo, pero vosotros sois los primeros hijos de México. Soldados, leo en vuestras frentes la victoria y la fe. ¡Viva la independencia nacional! ¡Viva la patria!"</p>
+<center
+<img src="imagenes/nachito.jpg" width="50%" height="50%">
+    </center>
+    </div>
+    
+   </div>
+<div data-role="footer" align="center" data-theme="a">
+    <div>
+      <h4>Aplicación 6 "Batalla de Puebla"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+  </div>
+ </div>                                  
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Actualidad de los Fuertes de Loreto y Guadalupe</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+   <p>
+   Los fuertes de Loreto y Guadalupe son unas antiguas edificaciones militares que se encuentran en la ciudad de Puebla. Originalmente se trataba de capillas construidas en lo alto de un cerro Acueyametepec, que fueron reconstituidas a principios del siglo XIX como fortificaciones con finalidades militares. Sirvieron como escenario principal tanto en la batalla como en el sitio de Puebla, durante la Segunda Intervención Francesa en México. Declarados como patrimonio histórico de México, actualmente albergan museos de sitio.
+   </p>
+   <p>
+   Imagenes"Fuertes de Loreto"
+   </p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('1','','imagenes/l1.jpg',1)"><img src="imagenes/l2.jpg" width="150" height="150" id="1"></a>
+<p>
+  Imagenes"Fuertes de Guadalupe"
+</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('2','','imagenes/g2.jpg',1)"><img src="imagenes/g1.jpg" width="150" height="150" id="2"></a> </div>
+   </div>
+ <div data-role="footer" align="center" data-theme="a">
+    <div>
+     <h4>Aplicación 6 "Batalla de Puebla"</h4> 
+     <h4>Denilson Zepeda Alonso</h4>
+   </div>
+   <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+  </div>
+ </div>  
+                             
+
+</body>
+</html>
